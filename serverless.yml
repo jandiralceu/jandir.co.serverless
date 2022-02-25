@@ -1,0 +1,15 @@
+service: jandir-site-apis
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-west-2
+
+functions:
+  hello:
+    handler: src/sendMessage.handler
+    events:
+      - httpApi:
+          path: /send-message
+          method: POST

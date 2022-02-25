@@ -1,0 +1,27 @@
+{
+  "name": "jandir-site-apis",
+  "version": "1.0.0",
+  "description": "jandir.co serveless functions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jandir A. Kutabyala",
+    "email": "me@jandir.co",
+    "url": "https://jandir.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandiralceu/jandir.co"
+  },
+  "bugs": {
+    "url": "https://github.com/jandiralceu/jandir.co.serverless/issues",
+    "email": "me@jandir.co"
+  },
+  "homepage": "https://jandir.co",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
+}
